@@ -161,6 +161,14 @@ color:#555;
 font-weight: bold;
 width:11%;
 }
+.prints-s-heading{
+padding-top:2em;
+padding-bottom:.5em;
+color:#555;
+font-weight: bold;
+width:25%;
+
+}
 .prints-desc{
 width: 24%;
 
