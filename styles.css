@@ -132,13 +132,52 @@ padding-left: 2em;
     background-color: rgba(255, 255, 255, .4);
 }
 .btn-ply{
-    margin: .5em 20% .5em 15%;
-color: white;
+    margin: 0 auto;
+color: #2D9CDB;  
+display: block;
+border-radius:50%;
+font-size:3em;
+padding:0;
+width:100px;
+height:100px;
 border:2px solid #2D9CDB;
 background-color: rgba(255, 255, 255, .1);
-border-radius:50%;
-font-size:1.5em;
-padding-right: 1em;
-padding-left: 1em;
-align: center;
 }
+.prints-row{
+padding-bottom: 1em;
+margin-bottom: 1em;
+border-bottom:1px solid black;
+}
+.prints-row:last-child{
+border-  bottom :none;
+}
+
+.prints-item{
+display: inline-block;
+padding-right: .5em;
+}
+.prints-heading{
+color:#555;
+font-weight: bold;
+width:11%;
+}
+.prints-desc{
+width: 24%;
+
+}
+.prints-s-desc{
+width: 42%;
+}
+.print-btn
+{
+max-width:19%;
+}
+.btn-prime{
+color: white;
+background-color:#56CCF2;
+border: none;
+border-radius: .3em;
+font-weight: bold;
+}
+.btn-prime:hover{
+ background:#2D9CDB; }
