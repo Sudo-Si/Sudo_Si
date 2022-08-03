@@ -7,7 +7,7 @@ font-style:normal;
 }
 *{
 box-sizing:border-box;
-font-family: 
+
 }
 .h1{
 color:blue;
@@ -44,7 +44,8 @@ text-decoration: none;
 display : inline-block
 }
 .nav a:hover {
-background-color: grba(255,255,255 .3)
+background-color: #FFFFFFaa;
+
 }
 .main-nav {
 text-align:center;
@@ -98,12 +99,46 @@ align-items: center;
 }
 .main-footer-container ul{
 flex-grow: 1;
-text-align: center;
+align-items: center;
 }
 .footer-nav li{
-
+padding: 0 .5em
 }
 .footer-nav img{
-width: 30px;
-height:30px;
-border-radius:50%;}
+width: 50px;
+height:50px;
+border-radius:50%;
+}
+
+.my-name-med{
+font-size: 2em;}
+.btn{
+text-align:center;
+vertical-align: middle;
+padding: .67em;
+cursor: pointer;
+}
+.btn-header{
+margin: .5em 15% 2em 15%;
+color: white;
+border:2px solid #2D9CDB;
+background-color: rgba(255, 255, 255, .1);
+border-radius:0;
+font-size:1.5em;
+padding-right: 2em;
+padding-left: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .4);
+}
+.btn-ply{
+    margin: .5em 20% .5em 15%;
+color: white;
+border:2px solid #2D9CDB;
+background-color: rgba(255, 255, 255, .1);
+border-radius:50%;
+font-size:1.5em;
+padding-right: 1em;
+padding-left: 1em;
+align: center;
+}
